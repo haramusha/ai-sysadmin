@@ -4,7 +4,7 @@ import google.generativeai as genai
 st.set_page_config(page_title="Wykrywacz logów",page_icon="🪵", layout="centered")
 
 #Konfiguracja API
-genai.configure(api_key=st.secrets["GOOGLE-API-KEY"])
+genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
 
 st.title("Wirtualny Asystent ds. Logów AI")
 
